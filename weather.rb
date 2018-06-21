@@ -27,7 +27,7 @@ def weather_final(weather)
   puts "The temperature is #{(weather)[:temperature_farenheit]}"
 end 
 
-weather_final(weather)
+weather_final
 
 
 # BONUS:  Write a method that takes in the weather hash as an argument and converts the farenheit temperature to celcius. Have the method round your answer to two decimal places. Is there a method we can use to round in Ruby?
