@@ -18,7 +18,7 @@ def description(weather)
 end
 
 def temperature(weather)
-  weather[:temperature_farenheit]
+  return weather[:temperature_farenheit]
 end
 
 def weather_report(weather)
