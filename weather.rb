@@ -32,7 +32,7 @@ end
 def weather_final(weather)
   puts "The city is #{location(weather)}."
   puts "The description is #{description(weather)}."
-  puts "The temperature is #{temperature(weather)}"
+  puts "The temperature is #{:temperature_farenheit}"
 end 
 
 weather_final()
