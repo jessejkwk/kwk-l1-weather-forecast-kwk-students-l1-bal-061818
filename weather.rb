@@ -18,7 +18,7 @@ def description(weather)
 end
 
 def weather_report(weather)
-  return "The weather in #{location(weather)} is #{description(weather)}. The temperature is #{temperature(weather)}."
+  return "The weather in #{location(weather)} is #{description(weather)}. The temperature is #{:temperature_farenheit}."
 end 
 
 
