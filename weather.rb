@@ -21,6 +21,7 @@ def temperature(weather)
   weather[:temperature_farenheit]
 end
 
+def current_weather
 return "The weather in #{location} is #{description}. The temperature is #{temperature}."
 
 final 
