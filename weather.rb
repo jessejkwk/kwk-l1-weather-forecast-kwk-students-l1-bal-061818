@@ -20,6 +20,7 @@ end
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
+
 def weather_final(weather)
   puts "The city is #{location(weather)}."
   puts "The description is #{description(weather)}."
