@@ -25,7 +25,7 @@ def weather_report(weather)
   return "The weather in #{location(weather)} is #{description(weather)}. The temperature is #{temperature(weather)}."
 end 
 
-current_weather
+weather_report(weather)
 
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
