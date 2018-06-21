@@ -21,7 +21,7 @@ end
 # You'll want to use the each method to iterate over the hash and print out
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 
-def weather_final(weather)
+def city_weather(weather)
   puts "The city is #{location(weather)}."
   puts "The description is #{description(weather)}."
   puts "The temperature is #{(weather)[:temperature_farenheit]}"
